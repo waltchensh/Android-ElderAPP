@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.harden">
+
+    <uses-permission android:name="android.permission.INTENT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="銀髮社群"
+        android:roundIcon="@drawable/biglogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".c_CheckIn_Record"
+            android:label="簽到紀錄"
+            android:parentActivityName=".c_activities_pages" />
+        <activity android:name=".m_home" />
+        <activity
+            android:name=".c_activitiesDetailsActivity"
+            android:label="活動內容"
+            android:parentActivityName=".c_activitiesListActivity">
+        </activity>
+        <activity
+            android:name=".m_activitiesDetailsActivity"
+            android:label="活動內容"
+            android:parentActivityName=".m_activitiesListActivity">
+        </activity>
+        <activity
+            android:name=".m_NewActivitiesActivity"
+            android:label="新增活動"
+            android:parentActivityName=".m_activity_pages">
+        </activity>
+        <activity
+            android:name=".m_NewProductsActivity"
+            android:label="新增商品"
+            android:parentActivityName=".m_shop_pages"/>
+        <activity
+            android:name=".ShowRecord"
+            android:label="交易紀錄"
+            />
+        <activity
+            android:name=".c_activitiesListActivity"
+            android:label="活動"
+            android:parentActivityName=".c_activities_pages">
+        </activity>
+        <activity
+            android:name=".m_activitiesListActivity"
+            android:label="活動"
+            android:parentActivityName=".m_activity_pages">
+        </activity>
+        <activity
+            android:name=".c_GetMoney"
+            android:label="收樂幣"
+            android:parentActivityName=".ShowData">
+        </activity>
+        <activity android:name=".c_ProductsActivity"
+            android:parentActivityName=".ShowData"/>
+        <activity android:name=".c_productsDetailsActivity"
+            android:parentActivityName=".c_ProductsActivity"/>
+        <activity android:name=".ShowData" />
+        <activity android:name=".transferPage" >
+        </activity>
+        <activity android:name=".welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GiveMoney"
+            android:label="送樂幣"
+            android:parentActivityName=".ShowData">
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".m_activity_pages"
+            android:parentActivityName=".m_home"/>
+        <activity android:name=".c_activities_pages"
+            android:parentActivityName=".ShowData"/>
+        <activity android:name=".m_ProductsActivity"
+            android:parentActivityName=".m_shop_pages"/>
+        <activity android:name=".m_productsDetailsActivity"
+            android:parentActivityName=".m_ProductsActivity"/>
+        <activity android:name=".m_shop_pages"
+            android:parentActivityName=".m_home"/>
+        <activity android:name=".m_GetMoney"
+            android:parentActivityName=".m_home"/>
+        <activity android:name=".c_Join_Record"
+            android:parentActivityName=".c_activities_pages"/>
+        <activity android:name=".SignUpActivity"
+            android:parentActivityName=".LoginActivity"/>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+    </application>
+
+</manifest>

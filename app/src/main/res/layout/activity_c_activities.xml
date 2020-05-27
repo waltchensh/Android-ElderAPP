@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".c_activities_pages"
+    android:orientation="vertical"
+    android:background="@drawable/startcolor" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:maxHeight="150dp"
+        android:maxWidth="400dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/biglogo"
+        />
+    <Button
+        android:id="@+id/a_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="查看活動"
+        android:textSize="20dp"
+        android:background="@drawable/button_rounde"
+        android:layout_marginTop="180dp"
+        />
+    <Button
+        android:id="@+id/QRcode_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="報名紀錄"
+        android:textSize="20dp"
+        android:background="@drawable/button_rounde"
+        android:layout_marginTop="270dp"
+        />
+
+    <Button
+        android:id="@+id/record_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="簽到記錄"
+        android:textSize="20dp"
+        android:background="@drawable/button_rounde"
+        android:layout_marginTop="360dp"
+        />
+    </RelativeLayout>
+</ScrollView>

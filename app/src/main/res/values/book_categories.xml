@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="book_categories">
+        <item>Software</item>
+        <item>Network</item>
+        <item>Electronics</item>
+        <item>Others</item>
+    </string-array>
+</resources>

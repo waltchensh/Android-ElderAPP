@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">harden</string>
+    <string name="test"><a href='http://yikang.com.tw/zh-tw/home'>關於我們</a></string>
+    <string name="secret"><a href='http://yikang.com.tw/zh-tw/home'>隱私政策</a></string>
+
+    <array name="genres">
+        <item>簽到</item>
+        <item>簽退</item>
+    </array>
+</resources>

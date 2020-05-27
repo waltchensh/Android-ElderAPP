@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m_NewActivitiesActivity"
+    android:orientation="vertical"
+    android:background="@drawable/startcolor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editText_record"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="100"
+            android:inputType="textPersonName"
+            android:hint="日期"
+            android:textStyle="bold"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="70dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日期"
+            android:id="@+id/dateButton"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/button_rounde"
+            android:layout_marginLeft="30dp"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/author_editTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="活動名稱"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/isbn_editTxt"
+        android:layout_width="match_parent"
+        android:layout_height="255sp"
+        android:ems="1000"
+        android:inputType="textPersonName"
+        android:hint="內文"
+        android:background="@color/white"
+        android:layout_marginTop="15dp"/>
+
+
+
+    <Spinner
+        android:id="@+id/book_categories_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:entries="@array/book_categories"/>
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="發佈"
+        android:textStyle="bold"
+        android:background="@drawable/button_rounde"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="公告欄"
+        android:background="@drawable/button_rounde"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
+</ScrollView>

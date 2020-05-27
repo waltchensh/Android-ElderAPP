@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "500077722317",
+    "firebase_url": "https://sa-harden.firebaseio.com",
+    "project_id": "sa-harden",
+    "storage_bucket": "sa-harden.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500077722317:android:c3b8cb51a1a23b58b40784",
+        "android_client_info": {
+          "package_name": "com.example.harden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500077722317-af119vre110mku54r6lm972i94gfjq87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harden",
+            "certificate_hash": "a2fbd2a1a9476e04b857e57d3e9432211dc44440"
+          }
+        },
+        {
+          "client_id": "500077722317-re3b774m5b4cls4ahouas3467n66rk12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0Tk4kLoPjmwKSQVljZqY08LiR-kJkDnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500077722317-re3b774m5b4cls4ahouas3467n66rk12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

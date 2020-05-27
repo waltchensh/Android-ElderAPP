@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c_CheckIn_Record"
+    android:orientation="vertical"
+    android:background="@drawable/startcolor">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editText_record"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:ems="100"
+            android:inputType="textPersonName"
+            android:hint=""
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Date"
+            android:id="@+id/dateButton"
+            android:layout_marginTop="30dp"
+            android:background="@color/yellow2"
+            android:layout_marginLeft="30dp"
+            />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner_record"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="0dp"
+        android:entries="@array/genres"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="-155dp" />
+
+    <Button
+        android:id="@+id/button_record"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="送出"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounde"
+        android:layout_marginBottom="0dp"
+        />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:maxHeight="150dp"
+        android:maxWidth="400dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/biglogo"
+        />
+
+    <ListView
+        android:id="@+id/record_listViewArtists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
