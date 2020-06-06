@@ -21,7 +21,7 @@
 * 廠商端能發布商品及活動，提供商品兌換紀錄及活動報名及參與紀錄。
 
  * APP 畫面及 Firebase DB 截圖 : <br>
-   <div align=center><img src="https://github.com/waltchensh/Android_ElderApp/blob/master/elderapp-login.png" width="80%"></div>
+   <div align=center><img src="https://github.com/waltchensh/resume-images/blob/master/elderapp-login.png" width="80%"></div>
 
 #### 備註
 
